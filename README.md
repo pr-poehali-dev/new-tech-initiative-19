@@ -1,3 +1,7 @@
-# new-tech-initiative-19
+# Hvile — Осознанная продуктивность
 
-Initial repository setup for pr-poehali-dev/new-tech-initiative-19
+![Preview](https://cdn.poehali.dev/templates/hvile/preview-ru.jpg)
+
+Лендинг для приложения осознанной продуктивности в скандинавском стиле. Спокойный минималистичный дизайн с акцентом на философию неспешной работы. Включает секции: герой-блок, философия подхода, возможности приложения, отзыв пользователя, тарифы и форму связи.
+
+`"tags": ["landing", "light", "saas", "productivity", "pricing", "testimonials"]`
