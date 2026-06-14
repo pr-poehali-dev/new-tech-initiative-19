@@ -37,11 +37,12 @@ export function Hero() {
         </div>
 
         {/* Main heading */}
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground leading-[1.1] text-balance mb-6">
-          Выпуск
-          <br />
-          <span className="italic">2026</span>
+        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground leading-[1.1] text-balance mb-4">
+          Выпуск <span className="italic">2026</span>
         </h1>
+        <p className="text-lg md:text-2xl text-muted-foreground mb-4 tracking-wide">
+          МКОУ «Одесская СШ 2»
+        </p>
 
         {/* Date */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 tracking-wide">
