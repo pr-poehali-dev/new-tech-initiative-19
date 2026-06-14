@@ -6,7 +6,7 @@ export function Philosophy() {
           {/* Left: Image */}
           <div className="relative aspect-[4/5] bg-muted rounded-lg overflow-hidden">
             <img
-              src="https://cdn.poehali.dev/projects/eec280e8-92a8-4e9a-a579-3b83031bb80c/bucket/5339ad8a-12b6-4dd6-a2c8-9666a17c18f9.jpeg"
+              src="https://cdn.poehali.dev/projects/eec280e8-92a8-4e9a-a579-3b83031bb80c/bucket/6e6aca52-a0c5-4c5f-8a4b-1dcaa8525a57.jpeg"
               alt="Вечер выпускного"
               className="w-full h-full object-cover"
             />
@@ -31,7 +31,7 @@ export function Philosophy() {
                 Этот день особенный. Позади годы учёбы, труда, открытий и незабываемых моментов. Впереди — новая жизнь, новые горизонты и большие мечты.
               </p>
               <p>
-                Мы хотим разделить этот праздник с теми, кто был рядом, поддерживал, верил и любил. Именно поэтому мы ждём вас — наших самых дорогих и близких людей!
+                Мы хотим разделить этот праздник с теми, кто был рядом, поддерживал, верил и любил. Именно поэтому мы ждём вас.
               </p>
             </div>
           </div>
