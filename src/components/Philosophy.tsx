@@ -21,24 +21,18 @@ export function Philosophy() {
           <div className="flex flex-col gap-8">
             <span className="text-sm uppercase tracking-widest text-sage">О вечере</span>
             <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground leading-tight text-balance">
-              Вечер, который вы заслужили
+              Дорогие друзья и уважаемые гости!
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Районный выпускной — это особый праздник, где встретятся выпускники со всего района.
-                Музыка, торжественная атмосфера и незабываемые моменты в одном из лучших культурных
-                центров Одессы.
+                Мы с радостью и волнением приглашаем вас на торжественное мероприятие — Выпускной вечер 2026!
               </p>
               <p>
-                Одесский РКДЦ готовит для вас тёплый приём: живая музыка, фотозона, праздничный стол
-                и всё, что нужно для настоящего праздника выпускников.
+                Этот день особенный. Позади годы учёбы, труда, открытий и незабываемых моментов. Впереди — новая жизнь, новые горизонты и большие мечты.
               </p>
-            </div>
-            <div className="pt-4">
-              <a href="#program" className="inline-flex items-center gap-2 text-foreground group">
-                <span className="border-b border-foreground pb-0.5">Программа вечера</span>
-                <span className="text-terracotta group-hover:translate-x-1 transition-transform duration-300">→</span>
-              </a>
+              <p>
+                Мы хотим разделить этот праздник с теми, кто был рядом, поддерживал, верил и любил. Именно поэтому мы ждём вас — наших самых дорогих и близких людей!
+              </p>
             </div>
           </div>
         </div>
