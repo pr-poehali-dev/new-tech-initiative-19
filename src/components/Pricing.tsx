@@ -21,6 +21,11 @@ const details = [
     value: "Районный выпускной",
     icon: "Users",
   },
+  {
+    name: "Адрес",
+    value: "с. Одесское, ул. Ленина, 27",
+    icon: "Navigation",
+  },
 ];
 
 export function Pricing() {
