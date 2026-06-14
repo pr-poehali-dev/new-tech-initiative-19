@@ -38,9 +38,9 @@ export function Hero() {
 
         {/* Main heading */}
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground leading-[1.1] text-balance mb-6">
-          Районный
+          Выпуск
           <br />
-          <span className="italic">Выпускной</span>
+          <span className="italic">2026</span>
         </h1>
 
         {/* Date */}
