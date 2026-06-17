@@ -18,7 +18,7 @@ const details = [
   },
   {
     name: "Формат",
-    value: "Районный выпускной",
+    value: "Школьный выпускной",
     icon: "Users",
   },
   {
