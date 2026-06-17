@@ -37,7 +37,7 @@ export function Pricing() {
           <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-foreground mb-4 text-balance">
             Всё, что нужно знать
           </h2>
-          <p className="text-muted-foreground text-lg">Сохрани дату и приходи вовремя — этот вечер ждёт тебя.</p>
+          <p className="text-muted-foreground text-lg">Сохраните дату и приходите вовремя — этот вечер ждёт вас.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
