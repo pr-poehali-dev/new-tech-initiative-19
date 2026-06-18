@@ -41,7 +41,7 @@ export function Hero() {
           Выпуск <span className="italic">2026</span>
         </h1>
         <p className="text-lg md:text-2xl text-muted-foreground mb-4 tracking-wide">
-          МКОУ «Одесская СШ 2»
+          МКОУ «Одесская СШ № 2»
         </p>
 
         {/* Date */}
