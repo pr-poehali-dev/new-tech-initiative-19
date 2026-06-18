@@ -1,13 +1,31 @@
 import { useState, FormEvent } from "react";
+import func2url from "../../backend/func2url.json";
+
+const RSVP_URL = func2url.rsvp;
 
 export function Contact() {
   const [name, setName] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (name) {
+    if (!name.trim()) return;
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch(RSVP_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: name.trim() }),
+      });
+      if (!res.ok) throw new Error("Ошибка сервера");
       setSubmitted(true);
+    } catch {
+      setError("Не удалось отправить. Попробуйте ещё раз.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -36,15 +54,18 @@ export function Contact() {
               onChange={(e) => setName(e.target.value)}
               className="flex-1 px-6 py-4 rounded-full bg-background border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-sage/30 transition-all duration-300"
               required
+              disabled={loading}
             />
             <button
               type="submit"
-              className="px-8 py-4 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity duration-300 whitespace-nowrap"
+              disabled={loading}
+              className="px-8 py-4 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity duration-300 whitespace-nowrap disabled:opacity-60"
             >
-              Я приду!
+              {loading ? "Отправляем..." : "Я приду!"}
             </button>
           </form>
         )}
+        {error && <p className="mt-4 text-red-500 text-sm">{error}</p>}
       </div>
     </section>
   );

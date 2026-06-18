@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "GET guests list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"guests": [], "total": 0},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
